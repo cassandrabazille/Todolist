@@ -6,8 +6,6 @@
 
 html {
     font-size: 62.5%;
-    width: 375px;
-    height: 375px
 }
 
 body {
@@ -78,6 +76,7 @@ h2 {
 
 body img {
     width: 10%;
+    height: 10%;
     border-radius: 50%;
     
 }
