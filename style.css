@@ -22,6 +22,7 @@ body {
     background-color: #FEF4D0;
     height: 55vh;
     font-size: 3rem;
+  
 }
 
 .flexcolumn {
@@ -42,6 +43,8 @@ body {
     height: 4vh;
     width: 100%;
     background-color: #FEF4D0;
+   
+   
   
 }
 
@@ -85,5 +88,9 @@ h2 {
 input[type="checkbox"] {
     width: 3rem;
     height: 3rem;
-    margin-right: 2rem
+    margin-right: 2rem;
+}
+
+#showList .task {
+    margin-bottom: 5rem;
 }
