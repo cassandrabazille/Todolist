@@ -4,24 +4,28 @@
     <meta charset="utf-8">
     <title>TODOLIST</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 <body class="flexcolumn">
     <h1>What do I have to do today ?</h1>
-    <p class="italicmsg">Mask 5 tasks per day</p>
+    <p class="italicmsg">Enter your task</p>
     <input type="text" id="task">
-    <h2>Task List</h2>
-    <div id="showList">tasks</div>
-    <button id="addBtn" onclick="addToList()">Add to list</button>
-    <br>
     <div class="flexrow">
-    <button id="deleteeltBtn" onclick="deleteElement()">Delete task</button>
-    <button id="deleteallBtn" onclick="deleteAll()">Delete all tasks</button>
+    <button id="addBtn" onclick="addToList()">Add to list</button>
+    <img src="Images/todoimage.jpg" alt="Image d'une cannette à vélo">
+    </div>
+    <h2>Task List</h2>
+    <div id="showList"></div>
+    <div class="flexrow">
+    <button id="deleteeltBtn" onclick="deleteElement()">Task done</button>
+    <!-- <button id="deleteallBtn" onclick="deleteAll()">Delete all tasks</button> -->
     </div>
    
 
     
 </body>
+
 </html>

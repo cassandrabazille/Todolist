@@ -3,7 +3,7 @@
             // Récupère la valeur du champ de texte avec l'ID "task"
             let task = document.getElementById("task").value;
             // Récupère l'élément avec l'ID "display2"
-            let taskList = document.getElementById("display2");
+            let taskList = document.getElementById("showList");
 
             // Vérifie si le champ de texte n'est pas vide
             if (task.trim() !== "") {
@@ -15,9 +15,9 @@
         }
 
         // Fonction pour supprimer les tâches complétées
-        function deleteCompletedTasks() {
+        function deleteElement() {
             // Récupère tous les éléments de la liste
-            let tasks = document.querySelectorAll("#display2 .task");
+            let tasks = document.querySelectorAll("#showList .task");
 
             // Parcourt les éléments de la liste et supprime ceux qui sont cochés
             tasks.forEach(task => {
